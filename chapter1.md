@@ -279,53 +279,6 @@ key: 6cb3d2209a
 xp: 100
 ```
 
-Some functions
-Extra practice exercises
-
-`@instructions`
-
-
-`@hint`
-
-
-`@pre_exercise_code`
-
-```{python}
-
-```
-
-
-`@sample_code`
-
-```{python}
-
-```
-
-
-`@solution`
-
-```{python}
-
-```
-
-
-`@sct`
-
-```{python}
-
-```
-
-
----
-
-## Insert exercise title here
-
-```yaml
-type: NormalExercise
-key: 3e8d3bc923
-xp: 100
-```
-
 
 
 `@instructions`
@@ -548,11 +501,103 @@ xp: 100
 
 ---
 
-## Insert exercise title here
+## Data frames
 
 ```yaml
 type: NormalExercise
 key: 7530df4f84
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{python}
+
+```
+
+
+`@sample_code`
+
+```{python}
+
+```
+
+
+`@solution`
+
+```{python}
+
+```
+
+
+`@sct`
+
+```{python}
+
+```
+
+
+---
+
+## Some functions
+
+```yaml
+type: NormalExercise
+key: 28b101f19f
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{python}
+
+```
+
+
+`@sample_code`
+
+```{python}
+
+```
+
+
+`@solution`
+
+```{python}
+
+```
+
+
+`@sct`
+
+```{python}
+
+```
+
+
+---
+
+## Extra practice exercises
+
+```yaml
+type: NormalExercise
+key: 085b05772b
 xp: 100
 ```
 
