@@ -250,12 +250,16 @@ xp: 100
 
 `@sample_code`
 ```{python}
-list = [1,2,3,5,6,7]
+list = [1,2,3,4,5,6]
 print(list[0])
-print(list[6])
+print(list[5])
 
-print(range(0,6))
+print(range(0,5))
 
+names = ["Name", "hello", "jake", "no", "wat"]
+print(names)
+
+print(list[0] + list[5])
 
 ```
 
@@ -294,7 +298,13 @@ xp: 100
 
 `@sample_code`
 ```{python}
+jake = { "name": "Jake", "age": 20, "single": True, "hotness": 2.5}
+print(jake)
 
+print(jake.name)
+
+jake.hotness = 1.3
+print(jake.hotness)
 ```
 
 `@solution`
@@ -332,7 +342,9 @@ xp: 100
 
 `@sample_code`
 ```{python}
+import pandas as pd
 
+# explain pandas
 ```
 
 `@solution`
@@ -370,45 +382,8 @@ xp: 100
 
 `@sample_code`
 ```{python}
-
-```
-
-`@solution`
-```{python}
-
-```
-
-`@sct`
-```{python}
-
-```
-
----
-
-## Packages
-
-```yaml
-type: NormalExercise
-key: 0eb17d6059
-xp: 100
-```
-
-
-
-`@instructions`
-
-
-`@hint`
-
-
-`@pre_exercise_code`
-```{python}
-
-```
-
-`@sample_code`
-```{python}
-
+list = [1,2,3,4,5,6]
+print(list.max())
 ```
 
 `@solution`
