@@ -1,9 +1,9 @@
 ---
-title: Test
-description: Test
+title: 'Introduction into coding with Python'
+description: ""
 ---
 
-## An exercise title written in sentence case
+## Data Types
 
 ```yaml
 type: NormalExercise
@@ -13,19 +13,13 @@ xp: 100
 skills: 2
 ```
 
-This is the assignment text. It should help provide students with the background information needed.
-The instructions that follow should be in bullet point form with clear guidance for what is expected.
+
 
 `@instructions`
-- Instruction 1
-- Instruction 2
-- Instruction 3
+
 
 `@hint`
-- Here is the hint for this setup problem. 
-- It should get students 50% of the way to the correct answer.
-- So don't provide the answer, but don't just reiterate the instructions.
-- Typically one hint per instruction is a sensible amount.
+
 
 `@pre_exercise_code`
 ```{python}
@@ -34,27 +28,565 @@ The instructions that follow should be in bullet point form with clear guidance 
 
 `@sample_code`
 ```{python}
-# Your
-# sample
-# code
-# should
-# be
-# ideally
-# 10 lines or less,
-# with a max
-# of 16 lines.
+print(type(1))
+# print type 1
+
+print(type(True))
+
+print(type(3.14))
+
+print(type("A string"))
+
+#Find the Data type of 3
 ```
 
 `@solution`
 ```{python}
-# Answer goes here
-# Make sure to match the comments with your sample code
-# to help students see the differences from solution
-# to given.
+print(type(1))
+# print type 1
+
+print(type(True))
+
+print(type(3.14))
+
+print(type("A string"))
+
+#Find the Data type of 3
 ```
 
 `@sct`
 ```{python}
 # Update this to something more informative.
 success_msg("Some praise! Then reinforce a learning objective from the exercise.")
+```
+
+---
+
+## Variables
+
+```yaml
+type: NormalExercise
+key: e193dadeb9
+xp: 100
+```
+
+i is a variable. It stores what you put in it. You need to print it to see its output.
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sample_code`
+```{python}
+i = "hello"
+print(i)
+
+name = "Julien"
+print(name)
+
+#variables can hold any sort of data type
+
+number = 55
+print(number)
+
+# you can add and subtract variables
+
+first = 5
+second = 9
+added = first + second
+print(added)
+
+sub = first - second
+print(sub)
+
+mult = first * second
+print(mult)
+
+div = first / second
+print(div)
+
+
+# this doesn't work. Why?
+print(Jake)
+
+# create your own variable and print it. 
+
+```
+
+`@solution`
+```{python}
+i = "hello"
+print(i)
+
+name = "Julien"
+print(name)
+
+#variables can hold any sort of data type
+
+number = 55
+print(number)
+
+# you can add and subtract variables
+
+first = 5
+second = 9
+added = first + second
+print(added)
+
+sub = first - second
+print(sub)
+
+mult = first * second
+print(mult)
+
+div = first / second
+print(div)
+
+
+# this doesn't work. Why?
+print(Jake)
+
+# create your own variable and print it. 
+```
+
+`@sct`
+```{python}
+
+```
+
+---
+
+## If statment
+
+```yaml
+type: NormalExercise
+key: d021cc29c8
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sample_code`
+```{python}
+if 3 > 2: 
+  print("True")
+  
+if 0 > 5: 
+  print( 3 > 2)
+  
+  print("Hello")
+ 
+print("no")
+# in python indentation is very important
+
+bigger_number = 6
+smaller_number = 2
+
+if bigger_number > smaller_number:
+	print(bigger_number + smaller_number)
+
+## if else statments
+if 4 < 3:
+  print(False)
+else: 
+  print(True)
+  
+ # if else if
+
+
+
+```
+
+`@solution`
+```{python}
+
+```
+
+`@sct`
+```{python}
+
+```
+
+---
+
+## Lists
+
+```yaml
+type: NormalExercise
+key: 21ec40b6c7
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sample_code`
+```{python}
+list = [1,2,3,5,6,7]
+print(list[0])
+print(list[6])
+
+print(range(0,6))
+
+
+```
+
+`@solution`
+```{python}
+
+```
+
+`@sct`
+```{python}
+
+```
+
+---
+
+## Dictionaries
+
+```yaml
+type: NormalExercise
+key: 6cb3d2209a
+xp: 100
+```
+
+Some functions
+Extra practice exercises
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{python}
+
+```
+
+
+`@sample_code`
+
+```{python}
+
+```
+
+
+`@solution`
+
+```{python}
+
+```
+
+
+`@sct`
+
+```{python}
+
+```
+
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: NormalExercise
+key: 3e8d3bc923
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{python}
+
+```
+
+
+`@sample_code`
+
+```{python}
+
+```
+
+
+`@solution`
+
+```{python}
+
+```
+
+
+`@sct`
+
+```{python}
+
+```
+
+
+---
+
+## Packages
+
+```yaml
+type: NormalExercise
+key: 382d8315c3
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{python}
+
+```
+
+
+`@sample_code`
+
+```{python}
+
+```
+
+
+`@solution`
+
+```{python}
+
+```
+
+
+`@sct`
+
+```{python}
+
+```
+
+
+---
+
+## Functions
+
+```yaml
+type: NormalExercise
+key: b8c2de00fd
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{python}
+
+```
+
+
+`@sample_code`
+
+```{python}
+
+```
+
+
+`@solution`
+
+```{python}
+
+```
+
+
+`@sct`
+
+```{python}
+
+```
+
+
+---
+
+## Packages
+
+```yaml
+type: NormalExercise
+key: 0eb17d6059
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{python}
+
+```
+
+
+`@sample_code`
+
+```{python}
+
+```
+
+
+`@solution`
+
+```{python}
+
+```
+
+
+`@sct`
+
+```{python}
+
+```
+
+
+---
+
+## Pandas
+
+```yaml
+type: NormalExercise
+key: fb17ea9bfa
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{python}
+
+```
+
+
+`@sample_code`
+
+```{python}
+
+```
+
+
+`@solution`
+
+```{python}
+
+```
+
+
+`@sct`
+
+```{python}
+
+```
+
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: NormalExercise
+key: 7530df4f84
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{python}
+
+```
+
+
+`@sample_code`
+
+```{python}
+
+```
+
+
+`@solution`
+
+```{python}
+
+```
+
+
+`@sct`
+
+```{python}
+
 ```
