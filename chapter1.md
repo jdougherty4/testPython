@@ -72,6 +72,95 @@ key: e193dadeb9
 xp: 100
 ```
 
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sample_code`
+```{python}
+# you can assign values to variables. In the code below, the variable "first" has been assigned an integer value of 10 
+# Make a second variable with the name "second" and a value of 5.
+first = 10
+
+#Numerical variables can be used for mathematical operations 
+
+print(first + second)
+
+#You can also create a new variable that equals operations of other variables. In the line of code below, a new variable "add" has been assigned the value which equals to the sum of "first" and "second".
+
+add = first + second
+
+#Please print the variable "add"
+
+____
+
+#Create a variable named "sub" whose value equates to "first" subtracted by "second", and print it.
+
+____
+
+#Create two variables named "mult" and "div" that is "first" multiplied and divided by "second", respectively, and print them seperately.
+
+____
+____
+___
+____
+```
+
+`@solution`
+```{python}
+# you can assign values to variables. In the code below, the variable "first" has been assigned a integer value of 10 
+# Make a second variable with the name "second" and a value of 5.
+first = 10
+
+#Numerical variables can be used for mathematical operations 
+
+print(first + second)
+
+#You can also create a new variable that equals operations of other variables. In the line of code below, a new variable "add" has been assigned the value which equals to the sum of "first" and "second".
+
+add = first + second
+
+#Please print the variable "add"
+
+print(add)
+
+#Create a variable named "sub" whose value equates to "first" subtracted by "second", and print it.
+
+sub = first - second
+
+#Create two variables named "mult" and "div" that is "first" multiplied and divided by "second", respectively, and print them seperately.
+
+mult = first * second
+div = first / second
+print(mult)
+print(div)
+
+```
+
+`@sct`
+```{python}
+
+```
+
+---
+
+## Variable Pt. 2
+
+```yaml
+type: NormalExercise
+key: e9057c9cea
+xp: 100
+```
+
 i is a variable. It stores what you put in it. You need to print it to see its output.
 
 `@instructions`
@@ -87,79 +176,24 @@ The string variables "i" and"name", as well as the integer variable "number", ha
 
 `@sample_code`
 ```{python}
-#Defining and printing string variables "i" and "name", as well as integer variable "number".
-
+#The string variables "i" and "name" have been defined for you.
 i = "Hello"
-print(i)
-
 name = "Julien"
-print(name)
 
-number = 55
-print(number)
+#Print output "HelloJulien" in the line below by using the addition operator.
+____
 
-# Please complete line of code below to print "Hello Julien"
+#Print output "Hello Julien" in the line below by using the addition operator.
+____
 
-___
-
-# you can add and subtract variables
-
-first = 10
-second = 5
-added = first + second
-print(added)
-
-sub = first - second
-print(sub)
-
-mult = first * second
-print(mult)
-
-div = first / second
-print(div)
-
-
-# The line of code below will not work. Create a string variable named "Jake" to fix it.
-
-print(Jake)
-
+#You can also run mathematical operations on variables of different types. The line of code below outputs
+mult = i*5
 
 ```
 
 `@solution`
 ```{python}
-i = "hello"
-print(i)
 
-name = "Julien"
-print(name)
-
-#variables can hold any sort of data type
-
-number = 55
-print(number)
-
-# you can add and subtract variables
-
-first = 5
-second = 9
-added = first + second
-print(added)
-
-sub = first - second
-print(sub)
-
-mult = first * second
-print(mult)
-
-div = first / second
-print(div)
-
-
-# this doesn't work. Why?
-print(Jake)
-
-# create your own variable and print it. 
 ```
 
 `@sct`
@@ -177,7 +211,9 @@ key: d021cc29c8
 xp: 100
 ```
 
+If statements take a condition. If that condition is true then it will continue and run any indented lines of code below it. If it is false it will not run the indented lines of code below it.
 
+Python is particular about format. The if statements must indented***
 
 `@instructions`
 
@@ -192,31 +228,42 @@ xp: 100
 
 `@sample_code`
 ```{python}
-if 3 > 2: 
-  print("True")
+#Boolean can only have one of two values. Either they are "True" or "False". Variables "yes" and "no" have been assigned boolean variables of "True" and "False", respectively.
+yes = True
+
+#Boolean variables are generally used for conditional statements such as an if statement.The below lines of code uses boolean variables to determine whether or not the following print() functions will run.
+if yes:
+  print("Yessssss")
+
+if yes == False:
+	print("noooooo")
   
-if 0 > 5: 
-  print( 3 > 2)
-  
-  print("Hello")
- 
-print("no")
-# in python indentation is very important
+# You can also use boolean conditions for the if statements. They are less than, <, grater than, >, and equals ==. Note the double equals sign. Also less than or equal <= and greater than or equal >=
 
-bigger_number = 6
-smaller_number = 2
+# The below code is asking if 3 is greater than 2 and if so print "Three is greater than Two"
+if 3>2:
+	print("Three is greater than Two")
 
-if bigger_number > smaller_number:
-	print(bigger_number + smaller_number)
+# The below code is asking if 3 is less than 2 and if so print "Three is less than Two"
+if 3<2:
+	print("Three is less than Two")
+print("Three is actually greater than Two")
 
-## if else statments
+#
+
+var1 = 10
+
+#Using var1, create an if statement whose condition is that var1 is equal to 10. If correct output "var1 is equal to 10"
+
+if (var1 == 10):
+	print("var1 is equal to 10")
+
+#if else statments take a condition and if it is false it runs the else code
+
 if 4 < 3:
-  print(False)
+	print("4 is less than 3")
 else: 
-  print(True)
-  
- # if else if
-
+	print("4 is not less than 3")
 
 
 ```
@@ -256,16 +303,23 @@ xp: 100
 
 `@sample_code`
 ```{python}
-list = [1,2,3,4,5,6]
-print(list[0])
-print(list[5])
+#Lists are a collection of data. The lists start at 0. 
+integers = [1,2,3,4,5,6]
+print(integers[0])
+print(integers[5])
 
-print(range(0,5))
+print(integers[0:6])
+print(integers[:3])
+print(integers[3:])
+
 
 names = ["Name", "hello", "jake", "no", "wat"]
 print(names)
 
-print(list[0] + list[5])
+print(integers[0] + integers[5])
+
+intnam = ["Name", 1, "hello", 2, "jake", 3, "no", 4, "wat", 5]
+print(intnam)
 
 ```
 
@@ -325,7 +379,7 @@ print(jake.hotness)
 
 ---
 
-## Packages
+## Packages and Pandas
 
 ```yaml
 type: NormalExercise
@@ -390,46 +444,6 @@ xp: 100
 ```{python}
 list = [1,2,3,4,5,6]
 print(list.max())
-```
-
-`@solution`
-```{python}
-
-```
-
-`@sct`
-```{python}
-
-```
-
----
-
-## Pandas
-
-```yaml
-type: NormalExercise
-key: fb17ea9bfa
-xp: 100
-```
-
-
-
-`@instructions`
-
-
-`@hint`
-
-
-`@pre_exercise_code`
-```{python}
-
-```
-
-`@sample_code`
-```{python}
-import pandas as pd
-
-## explain pandas
 ```
 
 `@solution`
