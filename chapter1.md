@@ -13,13 +13,15 @@ xp: 100
 skills: 2
 ```
 
+There are many types of data. The main four are integer, boolean, float, and strings. To find out what type of data you are using you can use the type() function.It outputs the type of data inside the brackets.
 
+In order to output in Python you need to use the print() function. It will print whatever is in the brackets
 
 `@instructions`
-
+Fill in the missing functions.
 
 `@hint`
-
+Try print() or type()
 
 `@pre_exercise_code`
 ```{python}
@@ -31,11 +33,11 @@ skills: 2
 print(type(1))
 # print type 1
 
-print(type(True))
+___(type(True))
 
-print(type(3.14))
+print(___(3.14))
 
-print(type("A string"))
+___(___("A string"))
 
 #Find the Data type of 3
 ```
@@ -57,7 +59,7 @@ print(type("A string"))
 `@sct`
 ```{python}
 # Update this to something more informative.
-success_msg("Some praise! Then reinforce a learning objective from the exercise.")
+success_msg("Good work! You have found the main types of data used in Python!")
 ```
 
 ---
@@ -421,7 +423,9 @@ xp: 100
 
 `@sample_code`
 ```{python}
+import pandas as pd
 
+## explain pandas
 ```
 
 `@solution`
@@ -459,6 +463,11 @@ xp: 100
 
 `@sample_code`
 ```{python}
+import pandas as pd
+
+df = pd.read_csv("somethig.csv")
+
+df.head()
 
 ```
 
@@ -497,6 +506,12 @@ xp: 100
 
 `@sample_code`
 ```{python}
+df["column"].values_counts()
+
+df["numbers"].sum()
+df["numbers"].max()
+df["numbers"].min()
+
 
 ```
 
