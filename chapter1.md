@@ -18,10 +18,10 @@ There are many types of data. The main four are integer, boolean, float, and str
 In order to output in Python you need to use the print() function. It will print whatever is in the brackets
 
 `@instructions`
-Fill in the missing functions.
+The first line has been coded to output the type of data for (1). Please complete the following lines of code by filling in the missing functions, so that they would output the types of data for (True), (3.14), and ("A string").
 
 `@hint`
-Try print() or type()
+Make sure to use the print() and/or type().
 
 `@pre_exercise_code`
 ```{python}
@@ -75,7 +75,7 @@ xp: 100
 i is a variable. It stores what you put in it. You need to print it to see its output.
 
 `@instructions`
-
+The string variables "i" and"name", as well as the integer variable "number", have been defined for you. Please fill in the appropriate code lines needed to output (Hello Julien)
 
 `@hint`
 
@@ -87,16 +87,19 @@ i is a variable. It stores what you put in it. You need to print it to see its o
 
 `@sample_code`
 ```{python}
-i = "hello"
+#Defining and printing string variables "i" and "name", as well as integer variable "number"
+
+i = "Hello"
 print(i)
 
 name = "Julien"
 print(name)
 
-#variables can hold any sort of data type
-
 number = 55
 print(number)
+
+# Please complete line of code below to print "Hello Julien"
+____
 
 # you can add and subtract variables
 
@@ -115,10 +118,10 @@ div = first / second
 print(div)
 
 
-# this doesn't work. Why?
+# The line of code below will not work. Create a string variable named "Jake" to fix it.
+
 print(Jake)
 
-# create your own variable and print it. 
 
 ```
 
