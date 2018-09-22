@@ -288,32 +288,24 @@ xp: 100
 
 
 `@pre_exercise_code`
-
 ```{python}
 
 ```
-
 
 `@sample_code`
-
 ```{python}
 
 ```
-
 
 `@solution`
-
 ```{python}
 
 ```
-
 
 `@sct`
-
 ```{python}
 
 ```
-
 
 ---
 
@@ -334,32 +326,24 @@ xp: 100
 
 
 `@pre_exercise_code`
-
 ```{python}
 
 ```
-
 
 `@sample_code`
-
 ```{python}
 
 ```
-
 
 `@solution`
-
 ```{python}
 
 ```
-
 
 `@sct`
-
 ```{python}
 
 ```
-
 
 ---
 
@@ -380,32 +364,24 @@ xp: 100
 
 
 `@pre_exercise_code`
-
 ```{python}
 
 ```
-
 
 `@sample_code`
-
 ```{python}
 
 ```
-
 
 `@solution`
-
 ```{python}
 
 ```
-
 
 `@sct`
-
 ```{python}
 
 ```
-
 
 ---
 
@@ -426,32 +402,24 @@ xp: 100
 
 
 `@pre_exercise_code`
-
 ```{python}
 
 ```
-
 
 `@sample_code`
-
 ```{python}
 
 ```
-
 
 `@solution`
-
 ```{python}
 
 ```
-
 
 `@sct`
-
 ```{python}
 
 ```
-
 
 ---
 
@@ -472,32 +440,24 @@ xp: 100
 
 
 `@pre_exercise_code`
-
 ```{python}
 
 ```
-
 
 `@sample_code`
-
 ```{python}
 
 ```
-
 
 `@solution`
-
 ```{python}
 
 ```
-
 
 `@sct`
-
 ```{python}
 
 ```
-
 
 ---
 
@@ -518,32 +478,24 @@ xp: 100
 
 
 `@pre_exercise_code`
-
 ```{python}
 
 ```
-
 
 `@sample_code`
-
 ```{python}
 
 ```
-
 
 `@solution`
-
 ```{python}
 
 ```
-
 
 `@sct`
-
 ```{python}
 
 ```
-
 
 ---
 
@@ -564,32 +516,24 @@ xp: 100
 
 
 `@pre_exercise_code`
-
 ```{python}
 
 ```
-
 
 `@sample_code`
-
 ```{python}
 
 ```
-
 
 `@solution`
-
 ```{python}
 
 ```
-
 
 `@sct`
-
 ```{python}
 
 ```
-
 
 ---
 
@@ -610,28 +554,21 @@ xp: 100
 
 
 `@pre_exercise_code`
-
 ```{python}
 
 ```
-
 
 `@sample_code`
-
 ```{python}
 
 ```
-
 
 `@solution`
-
 ```{python}
 
 ```
 
-
 `@sct`
-
 ```{python}
 
 ```
