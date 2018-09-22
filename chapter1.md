@@ -87,7 +87,7 @@ The string variables "i" and"name", as well as the integer variable "number", ha
 
 `@sample_code`
 ```{python}
-#Defining and printing string variables "i" and "name", as well as integer variable "number"
+#Defining and printing string variables "i" and "name", as well as integer variable "number".
 
 i = "Hello"
 print(i)
@@ -99,12 +99,13 @@ number = 55
 print(number)
 
 # Please complete line of code below to print "Hello Julien"
-____
+
+___
 
 # you can add and subtract variables
 
-first = 5
-second = 9
+first = 10
+second = 5
 added = first + second
 print(added)
 
