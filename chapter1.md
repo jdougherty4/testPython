@@ -90,6 +90,7 @@ xp: 100
 # you can assign values to variables. In the code below, the variable "first" has been assigned an integer value of 10 
 # Make a second variable with the name "second" and a value of 5.
 first = 10
+____
 
 #Numerical variables can be used for mathematical operations 
 
@@ -111,7 +112,7 @@ ____
 
 ____
 ____
-___
+____
 ____
 ```
 
