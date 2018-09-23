@@ -213,7 +213,7 @@ xp: 100
 
 If statements take a condition. If that condition is true then it will continue and run any indented lines of code below it. If it is false it will not run the indented lines of code below it.
 
-Python is particular about format. The if statements must indented***
+Python is particular about format. The if statements must be indented***.
 
 `@instructions`
 
