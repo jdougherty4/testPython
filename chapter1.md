@@ -72,7 +72,15 @@ key: e193dadeb9
 xp: 100
 ```
 
+You can assign numerical values to variables. In the code below, two new variable "first" have been assigned integer values of 10 and 5, respectively.
 
+`first = 10`
+`second = 5`
+
+Numerical variables can be used for mathematical operations.
+
+`print(first + 15)` Output: `25`
+`print(first + second)` Output: `15`
 
 `@instructions`
 
