@@ -170,7 +170,17 @@ key: e9057c9cea
 xp: 100
 ```
 
-i is a variable. It stores what you put in it. You need to print it to see its output.
+Variables can also be assigned to different types of data.
+
+`greeting = "Hello World!"` `pi = 3.14` `truth = True`
+
+`print(greeting)` Output: `"Hello World!"` (String variable)
+
+`print(pi)` Output: `3.14` (Float Variable)
+
+`print(truth)` Output: `True` (Boolean Variable)
+
+You can also run equations on different types of data, but the data type of the results will be prioritized in the order of presence of the data types used in the equation. In other words, the sum of string variable `"September"` and integer variable `2018` will output the result `"September 2018"`, a string.
 
 `@instructions`
 The string variables "i" and"name", as well as the integer variable "number", have been defined for you. Please fill in the appropriate code lines needed to output (Hello Julien)
