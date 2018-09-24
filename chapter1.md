@@ -289,7 +289,7 @@ key: 21ec40b6c7
 xp: 100
 ```
 
-
+A list is a collection of data. It can hold any data type, and can hold as much data as memory allows. A list can contain any combination of data types. One can do all sorts of things with lists such as sorting the list, removing values and adding values. Math operations etc. Lists are an incredibly powerful way of manipulating data in python.
 
 `@instructions`
 
@@ -322,6 +322,24 @@ print(integers[0] + integers[5])
 intnam = ["Name", 1, "hello", 2, "jake", 3, "no", 4, "wat", 5]
 print(intnam)
 
+# finds length of a list
+print(len(intnam))
+
+# add value to end of a list
+intnam.append('hello')        
+# add vaue to the start of a list
+intnam.insert(0, 'noway')
+
+# create your own list. 
+
+# print the last element of the list
+
+# add the last element of the your list with the last element of the integers list.
+
+# how long is your list?
+
+
+
 ```
 
 `@solution`
@@ -344,7 +362,7 @@ key: 6cb3d2209a
 xp: 100
 ```
 
-
+A dictionary is a collection which is unordered, changeable and indexed. In Python dictionaries are written with curly brackets, and they have keys and values.
 
 `@instructions`
 
@@ -359,13 +377,17 @@ xp: 100
 
 `@sample_code`
 ```{python}
-jake = { "name": "Jake", "age": 20, "single": True, "hotness": 2.5}
-print(jake)
+person = { "name": "someone", "age": 20, "single": True, "siblings": 2.5}
+print(person)
 
-print(jake.name)
+x = person["name"]
+print(x)
 
-jake.hotness = 1.3
-print(jake.hotness)
+
+print(person.name)
+
+person.siblings = 1.3
+print(person.siblings)
 ```
 
 `@solution`
@@ -388,7 +410,7 @@ key: 382d8315c3
 xp: 100
 ```
 
-
+A Package is a piece of software that has a specific functionality. Pandas for example allows you to do data analysis in a "easy" way. You could do everything pandas does in plain python but it would be a billion times harder.
 
 `@instructions`
 
@@ -428,7 +450,7 @@ key: b8c2de00fd
 xp: 100
 ```
 
-
+A function is a block of organized, reusable code that is used to perform a single, related action.
 
 `@instructions`
 
@@ -467,7 +489,7 @@ key: 7530df4f84
 xp: 100
 ```
 
-
+Basically it's like an excel table but in python.
 
 `@instructions`
 
@@ -484,7 +506,7 @@ xp: 100
 ```{python}
 import pandas as pd
 
-df = pd.read_csv("somethig.csv")
+df = pd.read_csv("c:\temp\somethig.csv")
 
 df.head()
 
@@ -510,7 +532,7 @@ key: 28b101f19f
 xp: 100
 ```
 
-
+These are just some basic functions in pandas.
 
 `@instructions`
 
@@ -530,6 +552,10 @@ df["column"].values_counts()
 df["numbers"].sum()
 df["numbers"].max()
 df["numbers"].min()
+
+# find the mean for the numbers column
+
+# find the median for the numbers column
 
 
 ```
