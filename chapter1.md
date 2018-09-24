@@ -13,9 +13,9 @@ xp: 100
 skills: 2
 ```
 
-There are many types of data. The main four are integer, boolean, float, and strings. To find out what type of data you are using you can use the type() function.It outputs the type of data inside the brackets.
+There are many types of data. The main four are integer, boolean, float, and strings. To find out what type of data you are using you can use the `type()` function to output the type of data inside the brackets.
 
-In order to output in Python you need to use the print() function. It will print whatever is in the brackets
+In order to output in Python you need to use the `print()` function. It will print whatever is in the brackets
 
 `@instructions`
 The code to output the type of data for (1) has already been filled in for you as an example. Please complete the following lines of code so that they would output the types of data for `True`, `3.14`, and `"A string"`.
