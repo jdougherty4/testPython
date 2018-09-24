@@ -18,7 +18,9 @@ There are many types of data. The main four are integer, boolean, float, and str
 In order to output in Python you need to use the `print()` function. It will print whatever is in the brackets
 
 `@instructions`
-The code to output the type of data for (1) has already been filled in for you as an example. Please complete the following lines of code so that they would output the types of data for `True`, `3.14`, and `"A string"`.
+The code to output the type of data for `1` has already been filled in for you as an example.
+1. Edit the following lines of code so that they would output the types of data for `True`, `3.14`, and `"A string"`.
+2. Create a line of cude to output the type of data for `3`.
 
 `@hint`
 Make sure to use the print() and/or type().
@@ -42,7 +44,7 @@ print(3.14)
 
 "A string"
 
-#Find the Data type of 3
+#Find the Data type of 3 and print it.
  
  
 ```
@@ -61,7 +63,7 @@ print(type(3.14))
 
 print(type("A string")
 
-#Find the Data type of 3
+#Find the Data type of 3 and print it.
  
 print(type(3))
 ```
