@@ -18,7 +18,7 @@ There are many types of data. The main four are integer, boolean, float, and str
 In order to output in Python you need to use the print() function. It will print whatever is in the brackets
 
 `@instructions`
-The first line has been coded to output the type of data for (1). Please complete the following lines of code by filling in the missing functions, so that they would output the types of data for (True), (3.14), and ("A string").
+The code to output the type of data for (1) has already been filled in for you as an example. Please complete the following lines of code so that they would output the types of data for `True`, `3.14`, and `"A string"`.
 
 `@hint`
 Make sure to use the print() and/or type().
@@ -30,30 +30,40 @@ Make sure to use the print() and/or type().
 
 `@sample_code`
 ```{python}
+#The code to output the type of data for (1) has already been filled in for you as an example.
+
 print(type(1))
-# print type 1
 
-___(type(True))
+# Please edit the following lines of code so that they would output the types of data for `True`, `3.14`, and `"A string"`.
 
-print(___(3.14))
+(type(True)
 
-___(___("A string"))
+print(3.14)
+
+"A string"
 
 #Find the Data type of 3
+ 
+ 
 ```
 
 `@solution`
 ```{python}
-print(type(1))
-# print type 1
+#The code to output the type of data for (1) has already been filled in for you as an example.
 
-print(type(True))
+print(type(1))
+
+# Please edit the following lines of code so that they would output the types of data for `True`, `3.14`, and `"A string"`.
+
+print(type(True)
 
 print(type(3.14))
 
-print(type("A string"))
+print(type("A string")
 
 #Find the Data type of 3
+ 
+print(type(3))
 ```
 
 `@sct`
@@ -180,7 +190,9 @@ Variables can also be assigned to different types of data.
 
 `print(truth)` Output: `True` (Boolean Variable)
 
-You can also run equations on different types of data, but the data type of the results will be prioritized in the order of presence of the data types used in the equation. In other words, the sum of string variable `"September"` and integer variable `2018` will output the result `"September 2018"`, a string.
+You can also run equations on different types of data, but the data type of the results will be prioritized in the order of presence of the data types used in the equation. In other words, the sum of string variable `"September"` and integer variable `2018` will output the string "September 2018".
+
+The order of variable types is as follows: Strings, Floats, Integers, and Booleans.
 
 `@instructions`
 The string variables "i" and"name", as well as the integer variable "number", have been defined for you. Please fill in the appropriate code lines needed to output (Hello Julien)
