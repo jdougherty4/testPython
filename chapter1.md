@@ -214,18 +214,36 @@ i = "Hello"
 name = "Julien"
 
 #Print output "HelloJulien" in the line below by using the addition operator.
-____
+
+
 
 #Print output "Hello Julien" in the line below by using the addition operator.
-____
 
-#You can also run mathematical operations on variables of different types. The line of code below outputs
-mult = i*5
+
+
+#You can also run mathematical operations on variables of different types. The line of code below will result in a string output.
+
+mult = i+5
 
 ```
 
 `@solution`
 ```{python}
+#The string variables "i" and "name" have been defined for you.
+i = "Hello"
+name = "Julien"
+
+#Print output "HelloJulien" in the line below by using the addition operator.
+
+print(i+name)
+
+#Print output "Hello Julien" in the line below by using the addition operator.
+
+(print(i+" "+name))
+
+#You can also run mathematical operations on variables of different types. The line of code below will result in a string output.
+
+mult = i+5
 
 ```
 
