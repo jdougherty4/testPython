@@ -132,32 +132,26 @@ num1 = 10
 
 `@solution`
 ```{python}
-# you can assign values to variables. In the code below, the variable "first" has been assigned a integer value of 10 
-# Make a second variable with the name "second" and a value of 5.
-first = 10
+# In the code below, the variable `num1` has been assigned an integer value of 10.
 
-#Numerical variables can be used for mathematical operations 
+num1 = 10
 
-print(first + second)
+# Create variables `num2` and `num3` by assigning them with values of 30 and 40.
 
-#You can also create a new variable that equals operations of other variables. In the line of code below, a new variable "add" has been assigned the value which equals to the sum of "first" and "second".
+num2 = 30
+num3 = 40
 
-add = first + second
+# Print the output of the sum of `num1` and `num2`.
 
-#Please print the variable "add"
+print(num1+num2)
 
-print(add)
+# Create a new variable `sum123` whose value is the sum of  `num1`, `num2`, and `num3`.
 
-#Create a variable named "sub" whose value equates to "first" subtracted by "second", and print it.
+sum123 = num1 + num2 + num3
 
-sub = first - second
+# Print the output of (`num3`/`num1`+`sum123`).
 
-#Create two variables named "mult" and "div" that is "first" multiplied and divided by "second", respectively, and print them seperately.
-
-mult = first * second
-div = first / second
-print(mult)
-print(div)
+print(num3/num1+sum123)
 
 ```
 
