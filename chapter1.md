@@ -64,7 +64,7 @@ success_msg("Good work! You have found the main types of data used in Python!")
 
 ---
 
-## Variables
+## Variables Pt. 1
 
 ```yaml
 type: NormalExercise
@@ -75,15 +75,27 @@ xp: 100
 You can assign numerical values to variables. In the code below, two new variable "first" have been assigned integer values of 10 and 5, respectively.
 
 `first = 10`
+
 `second = 5`
+
+`print(first)` Output: `10`
 
 Numerical variables can be used for mathematical operations.
 
 `print(first + 15)` Output: `25`
-`print(first + second)` Output: `15`
+
+`third = first * 2`
+
+`print(third)` Output: `20`
+
+`print(first + third)` Output: `30`
 
 `@instructions`
-
+Numerical variable `num1` has already been assigned an integer value of `10` for you in the code.
+1. Create new variables `num2` and `num3` with the values `30` and `40`, respectively.
+2. Print the output of the sum of `num1` and `num2`.
+3. Create a new variable `sum123` whose value is the sum of  `num1`, `num2`, and `num3`.
+3. Print the output of (`num3`/`num1`+`sum123`).
 
 `@hint`
 
@@ -95,33 +107,27 @@ Numerical variables can be used for mathematical operations.
 
 `@sample_code`
 ```{python}
-# you can assign values to variables. In the code below, the variable "first" has been assigned an integer value of 10 
-# Make a second variable with the name "second" and a value of 5.
-first = 10
-____
+# In the code below, the variable `num1` has been assigned an integer value of 10.
 
-#Numerical variables can be used for mathematical operations 
+num1 = 10
 
-print(first + second)
+# Create variables `num2` and `num3` by assigning them with values of 30 and 40.
 
-#You can also create a new variable that equals operations of other variables. In the line of code below, a new variable "add" has been assigned the value which equals to the sum of "first" and "second".
 
-add = first + second
 
-#Please print the variable "add"
 
-____
+# Print the output of the sum of `num1` and `num2`.
 
-#Create a variable named "sub" whose value equates to "first" subtracted by "second", and print it.
 
-____
 
-#Create two variables named "mult" and "div" that is "first" multiplied and divided by "second", respectively, and print them seperately.
+# Create a new variable `sum123` whose value is the sum of  `num1`, `num2`, and `num3`.
 
-____
-____
-____
-____
+
+
+# Print the output of (`num3`/`num1`+`sum123`).
+
+
+
 ```
 
 `@solution`
@@ -162,7 +168,7 @@ print(div)
 
 ---
 
-## Variable Pt. 2
+## Variables Pt. 2
 
 ```yaml
 type: NormalExercise
